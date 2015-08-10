@@ -1,0 +1,16 @@
+{
+    "name": "abiodun/adidas-ui",
+    "description": "Adidas UI",
+    "type": "web",
+    "authors": [
+        {
+            "name": "golden0",
+            "email": "abiodun.shuaib.m@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "^1.3",
+        "twig/twig": "^1.18",
+        "symfony/twig-bridge": "^2.7"
+    }
+}

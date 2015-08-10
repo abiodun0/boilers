@@ -1,0 +1,50 @@
+
+ <!DOCTYPE html >
+ <html lang="en">
+ <meta charset="UTF-8">
+<head>
+<title>Blank Title</title>
+
+
+ <!-- css -->
+ <link rel="stylesheet" href="{{ app.request.baseUrl }}/assets/css/reset.css">
+<link rel="stylesheet" href="{{ app.request.baseUrl }}/assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="{{ app.request.baseUrl }}/assets/css/animate.css">
+<link rel="stylesheet" href="{{ app.request.baseUrl }}/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{ app.request.baseUrl }}/assets/css/style.css">
+<link rel="stylesheet" href="{{ app.request.baseUrl }}/assets/css/responsive.css">
+<!-- css -->
+
+   
+
+
+
+    <!--  JavaScript -->
+<script src="{{ app.request.baseUrl }}/assets/js/jquery-1.11.1.js"></script>
+<script src="{{ app.request.baseUrl }}/assets/js/bootstrap.min.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="{{ app.request.baseUrl }}/assets/js/gmaps.js"></script>
+<script src="{{ app.request.baseUrl }}/assets/js/main.js"></script>
+
+ <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+ 
+ <!--  JavaScript -->
+ </head>
+
+<!--<body data-spy="scroll" data-target=".navbar-home" data-offset="65">-->
+<body>
+
+<p>Just a testing phase</p>
+{% block content %}
+{% endblock %}
+
+</html>

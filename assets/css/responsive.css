@@ -1,0 +1,205 @@
+/* Begining of max width 767 */
+@media (max-width: 767px) {
+	body{
+
+		/*padding-top:50px;*/
+		overflow-x:hidden;
+	}
+ .slide-container,.right-slide{
+ 	display:none;
+ }
+ .arrow-down{
+ 	display:none;
+ }
+ .carousel-inner{
+	padding-left:0px;
+	padding-right:0px;
+}
+#CaseStudies h2{
+	font-size:10px;
+}
+#CaseStudies h1{
+	margin-top:50px;
+	margin-bottom:2px;
+}
+#CaseStudies .col-xs-4{
+	height:142px;
+}
+#CaseStudies .col-xs-4:last-child{
+	margin-bottom:150px;
+}
+ #home{
+ 	background-position:center center;
+ 	background-size:320%;
+ }
+.do-text{
+	padding-left:0px;
+	padding-right:0px;
+	text-align:center;
+	    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+ .carousal h1{
+ 	margin-left:0;
+
+ 	text-align:center;
+ }
+.orange-bt{
+	margin-bottom:100px;
+ margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.navigation{
+/*background-image:url(../img/Topper_Orange.png);*/
+}
+.scroll-text{
+	display:none;
+	text-align:center;
+	margin-bottom:100px;
+}
+ #WhoWeAre h1{
+ 	margin-left:0;
+ }
+ .black-button{
+ 	margin-bottom:100px;
+ }
+ .sub-text{
+
+ 	text-align:justify;
+ 	margin-bottom:150px;
+ }
+
+ .lead-text{
+ 	line-height:1.8em;
+
+  position: relative;
+  font-size: 1.0em;
+  margin-top: 150px;
+ }
+.button-animate{
+	display:none;
+}
+#WhatWeDo {
+  	background-color:#2B2B2B;
+
+ }
+ #CaseStudies{
+ 	margin-top:0px;
+ }
+  #MeetTheTeam,#WhatWeDo,#CaseStudies {
+ 	background-image:none;
+
+ }
+ #MeetTheTeam {
+ 	background-color:#FF8600;
+ }
+ #MeetTheTeam h1{
+ 	margin-top:90px;
+ }
+ .blog{
+ 	margin-top:0px;
+
+ }
+ .blog h2{
+ 	margin-top:20px;
+ }
+
+}
+/* End of max width 767 */
+/* Begining of min width 768 */
+@media (min-width: 768px) {
+
+
+}
+/* End of min width 768 */
+
+
+/* Begining of max width 991 */
+ @media (max-width: 991px){
+.xsmall-view{
+	display:block;
+}
+.xlarge-view{
+
+	display:none;
+}
+#ContactUs h2, .contact-text{
+	text-align:center;
+}
+
+#WhoWeAre h1,#MeetTheTeam h1,#ContactUs h1,#CaseStudies h1,#WhatWeDo h1{
+font-size:4.8em;	
+text-align:center;
+}
+
+ .black-button{
+ 	margin-right:auto;
+ 	margin-left:auto;
+ 	float:none;
+ }
+
+
+
+  
+}
+
+/* End of max width 991 */
+
+
+/* Begining of Min width 992 */
+@media (min-width: 992px) {
+	   #WhatWeDo h1, #MeetTheTeam h1{
+ 	text-align:right;
+ }
+ .xsmall-view{
+	display:none;
+}
+ .xlarge-view{
+
+	display:block;
+}
+
+}
+
+/* End of Min width 992 */
+
+
+/* Begining of Min width 1200 */
+@media (min-width: 1200px) {
+
+ }
+ /* End of Min width 1200 */
+
+
+ /* Begining of Min width 1800 */
+ @media (min-width: 1800px) {
+.container{
+      width:1440px;
+}
+
+ 	.row.details{
+
+	margin-bottom:500px;
+}
+ 
+
+ }
+
+ /* End of Min width 1800 */
+
+ /* Range width 768 - 991 */
+ @media (min-width: 768px) and (max-width: 991px) {
+
+ }
+
+  /* End Range width 768 - 991 */
+ /*Range  width 992 1199 */
+  @media (min-width: 992px) and (max-width: 1400px) {
+
+  	.buttton-animate{
+  		right:5%;
+  	}
+ }
+/* End Range  width 992 1199 */
